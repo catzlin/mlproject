@@ -1,0 +1,595 @@
+Script started on Mon Nov 23 12:04:22 2020
+]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject🐍 Loading 'lewagon' virtualenv
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
+]2;ls -G]1;lsMANIFEST.in      README.md        out.csv          [1m[36mscripts[39;49m[0m          [1m[36mtests[39;49m[0m
+Makefile         [1m[36mmlproject[39;49m[0m        requirements.txt setup.py         typescript
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[4ms[24m[4ms[4mc[24m[4ms[4mc[4mr[24m[24ms[24mc[24mr
+[J[0mSCREEN_NO      [JSCRIPT         [Jscreen         [Jscreencapture  [Jscript         [J[1;31mscripts[0m/     [J[A[0m[27m[24m[28Cscr[K[4ms[4mc[4mr[4mi[24m[4mi[4mp[24m[24m[32ms[24m[32mc[24m[32mr[24m[32mi[24m[32mp[32mt[39m[4m[32ms[4m[32mc[4m[32mr[4m[32mi[4m[32mp[4m[32mt[4m[32ms[24m[39m[4m[32ms[1m[4m[32m/[0m[24m[39m[4m[32ms[24m[39m[0m[24m[39m [?1l>[?2004l
+[J]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..oject/scripts]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mt[39m[1m[31mt[1m[31mo[0m[39m[1m[31mt[1m[31mo[1m[31mu[0m[39m[1m[31mu[1m[31mc[0m[39m[0m[32mt[0m[32mo[0m[32mu[0m[32mc[32mh[39m [39mt[39mo[39mu[39mc[39mh [7mmlproject-computedist[27m[27D[32mt[32mo[32mu[32mc[32mh[39m [27mm[27ml[27mp[27mr[27mo[27mj[27me[27mc[27mt[27m-[27mc[27mo[27mm[27mp[27mu[27mt[27me[27md[27mi[27ms[27mt[?1l>[?2004l
+]2;touch mlproject-computedist]1;touch[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..oject/scripts]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
+]2;ls -G]1;lsmlproject-computedist mlproject-run
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..oject/scripts]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31ms[0m[39m[0m[32ms[32mt[39m[?1l>[?2004l
+]2;'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl']1;st[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..oject/scripts]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32m.[39m[4m[32m.[4m[32m.[24m[39m[?1l>[?2004l
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32m.[39m[4m[32m.[4m[32m.[24m[39m[?1l>[?2004l
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;~/code/catzlin]7;file://MBP-16709/Users/catherinechen/code/catzlin[0m[27m[24m[J[01;32m➜  [36mcatzlin[00m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
+]2;ls -G]1;ls[1m[36mdata-challenges[39;49m[0m [1m[36mdotfiles[39;49m[0m        [1m[36mmlproject[39;49m[0m       [1m[36mpysqlite3[39;49m[0m       [1m[36msqlite[39;49m[0m          sqlite.tar.gz
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;~/code/catzlin]7;file://MBP-16709/Users/catherinechen/code/catzlin[0m[27m[24m[J[01;32m➜  [36mcatzlin[00m [K[?1h=[?2004h[4mm[24m[4mm[4ml[24m[?1l>[?2004l[24m[1m[31mm[24m[1m[31ml[0m[39m
+]2;ml]1;mlzsh: command not found: ml
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;~/code/catzlin]7;file://MBP-16709/Users/catherinechen/code/catzlin[0m[27m[24m[J[01;31m➜  [36mcatzlin[00m [K[?1h=[?2004h[4mm[24m[4mm[4ml[24m[4m[32mm[4m[32ml[4m[32mproject[24m[39m[?1l>[?2004l
+]2;mlproject]1;mlproject[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[4ms[24m[24m[32ms[32mt[39m[32ms[32mt[32mt[39m[?1l>[?2004l
+]2;'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' .]1;stt[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mt[39m[32mt[32mr[39m[1m[31mt[1m[31mr[1m[31me[0m[39m[0m[32mt[0m[32mr[0m[32me[32me[39m[?1l>[?2004l
+]2;tree]1;tree.
+├── MANIFEST.in
+├── Makefile
+├── README.md
+├── mlproject
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-38.pyc
+│   │   ├── distance.cpython-38.pyc
+│   │   └── lib.cpython-38.pyc
+│   ├── data
+│   │   └── data.csv.gz
+│   ├── distance.py
+│   └── lib.py
+├── out.csv
+├── requirements.txt
+├── scripts
+│   ├── mlproject-computedist
+│   └── mlproject-run
+├── setup.py
+├── tests
+│   ├── __init__.py
+│   └── lib_test.py
+└── typescript
+
+5 directories, 18 files
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[7mmake install[27m[12D[27m[32mm[27m[32ma[27m[32mk[27m[32me[39m[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[?1l>[?2004l
+]2;make install]1;makeProcessing /Users/catherinechen/code/catzlin/mlproject
+Building wheels for collected packages: mlproject
+  Building wheel for mlproject (setup.py) ... [?25l- \ error
+[31m  ERROR: Command errored out with exit status 1:
+   command: /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-ch0wh2a1/setup.py'"'"'; __file__='"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-ch0wh2a1/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-wheel-ts8m_m1j
+       cwd: /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-ch0wh2a1/
+  Complete output (34 lines):
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib
+  creating build/lib/tests
+  copying tests/__init__.py -> build/lib/tests
+  copying tests/lib_test.py -> build/lib/tests
+  creating build/lib/mlproject
+  copying mlproject/lib.py -> build/lib/mlproject
+  copying mlproject/__init__.py -> build/lib/mlproject
+  copying mlproject/distance.py -> build/lib/mlproject
+  running egg_info
+  creating mlproject.egg-info
+  writing mlproject.egg-info/PKG-INFO
+  writing dependency_links to mlproject.egg-info/dependency_links.txt
+  writing top-level names to mlproject.egg-info/top_level.txt
+  writing manifest file 'mlproject.egg-info/SOURCES.txt'
+  reading manifest file 'mlproject.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no previously-included files matching '__pycache__' found anywhere in distribution
+  warning: no previously-included files matching '*.so' found anywhere in distribution
+  warning: no previously-included files matching '*.ipynb' found anywhere in distribution
+  warning: no previously-included files matching '*' found under directory 'mlproject/jupy'
+  writing manifest file 'mlproject.egg-info/SOURCES.txt'
+  creating build/lib/mlproject/data
+  copying mlproject/data/data.csv.gz -> build/lib/mlproject/data
+  running build_scripts
+  creating build/scripts-3.8
+  copying and adjusting scripts/mlproject-run -> build/scripts-3.8
+  warning: build_scripts: scripts/mlproject-computedist is an empty file (skipping)
+  
+  changing mode of build/scripts-3.8/mlproject-run from 644 to 755
+  error: [Errno 2] No such file or directory: 'build/scripts-3.8/mlproject-computedist'
+  ----------------------------------------[0m
+[31m  ERROR: Failed building wheel for mlproject[0m
+[?25h  Running setup.py clean for mlproject
+Failed to build mlproject
+Installing collected packages: mlproject
+  Attempting uninstall: mlproject
+    Found existing installation: mlproject 1.0
+    Uninstalling mlproject-1.0:
+      Successfully uninstalled mlproject-1.0
+    Running setup.py install for mlproject ... [?25l- error
+[31m    ERROR: Command errored out with exit status 1:
+     command: /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-ch0wh2a1/setup.py'"'"'; __file__='"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-ch0wh2a1/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-record-tz0fawhg/install-record.txt --single-version-externally-managed --compile --install-headers /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/include/site/python3.8/mlproject
+         cwd: /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-ch0wh2a1/
+    Complete output (32 lines):
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    creating build/lib/tests
+    copying tests/__init__.py -> build/lib/tests
+    copying tests/lib_test.py -> build/lib/tests
+    creating build/lib/mlproject
+    copying mlproject/lib.py -> build/lib/mlproject
+    copying mlproject/__init__.py -> build/lib/mlproject
+    copying mlproject/distance.py -> build/lib/mlproject
+    running egg_info
+    writing mlproject.egg-info/PKG-INFO
+    writing dependency_links to mlproject.egg-info/dependency_links.txt
+    writing top-level names to mlproject.egg-info/top_level.txt
+    reading manifest file 'mlproject.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no previously-included files matching '__pycache__' found anywhere in distribution
+    warning: no previously-included files matching '*.so' found anywhere in distribution
+    warning: no previously-included files matching '*.ipynb' found anywhere in distribution
+    warning: no previously-included files matching '*' found under directory 'mlproject/jupy'
+    writing manifest file 'mlproject.egg-info/SOURCES.txt'
+    creating build/lib/mlproject/data
+    copying mlproject/data/data.csv.gz -> build/lib/mlproject/data
+    running build_scripts
+    creating build/scripts-3.8
+    copying and adjusting scripts/mlproject-run -> build/scripts-3.8
+    warning: build_scripts: scripts/mlproject-computedist is an empty file (skipping)
+    
+    changing mode of build/scripts-3.8/mlproject-run from 644 to 755
+    error: [Errno 2] No such file or directory: 'build/scripts-3.8/mlproject-computedist'
+    ----------------------------------------[0m
+[?25h  Rolling back uninstall of mlproject
+  Moving to /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/bin/mlproject-run
+   from /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-uninstall-qgtokwez/mlproject-run
+  Moving to /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/mlproject-1.0.dist-info/
+   from /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~lproject-1.0.dist-info
+  Moving to /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/mlproject/
+   from /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~lproject
+  Moving to /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/tests/
+   from /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~ests
+[31mERROR: Command errored out with exit status 1: /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-ch0wh2a1/setup.py'"'"'; __file__='"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-ch0wh2a1/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-record-tz0fawhg/install-record.txt --single-version-externally-managed --compile --install-headers /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/include/site/python3.8/mlproject Check the logs for full command output.[0m
+make: *** [install] Error 1
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[4mm[24m[24m[1m[31mm[1m[31ma[0m[39m[1m[31mm[1m[31ma[1m[31mk[0m[39m[0m[32mm[0m[32ma[0m[32mk[32me[39m[1m[37m[45mm[1m[37m[45ma[1m[37m[45mk[1m[37m[45me[0m[39m[49m install[12D[0m[49m[32mm[0m[49m[32ma[0m[49m[32mk[0m[49m[32me[39m[8C[?1l>[?2004l
+]2;make install]1;makeProcessing /Users/catherinechen/code/catzlin/mlproject
+Building wheels for collected packages: mlproject
+  Building wheel for mlproject (setup.py) ... [?25l- \ error
+[31m  ERROR: Command errored out with exit status 1:
+   command: /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-hq_5ya6u/setup.py'"'"'; __file__='"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-hq_5ya6u/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-wheel-s0y3w81o
+       cwd: /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-hq_5ya6u/
+  Complete output (34 lines):
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib
+  creating build/lib/tests
+  copying tests/__init__.py -> build/lib/tests
+  copying tests/lib_test.py -> build/lib/tests
+  creating build/lib/mlproject
+  copying mlproject/lib.py -> build/lib/mlproject
+  copying mlproject/__init__.py -> build/lib/mlproject
+  copying mlproject/distance.py -> build/lib/mlproject
+  running egg_info
+  creating mlproject.egg-info
+  writing mlproject.egg-info/PKG-INFO
+  writing dependency_links to mlproject.egg-info/dependency_links.txt
+  writing top-level names to mlproject.egg-info/top_level.txt
+  writing manifest file 'mlproject.egg-info/SOURCES.txt'
+  reading manifest file 'mlproject.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no previously-included files matching '__pycache__' found anywhere in distribution
+  warning: no previously-included files matching '*.so' found anywhere in distribution
+  warning: no previously-included files matching '*.ipynb' found anywhere in distribution
+  warning: no previously-included files matching '*' found under directory 'mlproject/jupy'
+  writing manifest file 'mlproject.egg-info/SOURCES.txt'
+  creating build/lib/mlproject/data
+  copying mlproject/data/data.csv.gz -> build/lib/mlproject/data
+  running build_scripts
+  creating build/scripts-3.8
+  copying and adjusting scripts/mlproject-run -> build/scripts-3.8
+  warning: build_scripts: scripts/mlproject-computedist is an empty file (skipping)
+  
+  changing mode of build/scripts-3.8/mlproject-run from 644 to 755
+  error: [Errno 2] No such file or directory: 'build/scripts-3.8/mlproject-computedist'
+  ----------------------------------------[0m
+[31m  ERROR: Failed building wheel for mlproject[0m
+[?25h  Running setup.py clean for mlproject
+Failed to build mlproject
+Installing collected packages: mlproject
+  Attempting uninstall: mlproject
+    Found existing installation: mlproject 1.0
+    Uninstalling mlproject-1.0:
+      Successfully uninstalled mlproject-1.0
+    Running setup.py install for mlproject ... [?25l- error
+[31m    ERROR: Command errored out with exit status 1:
+     command: /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-hq_5ya6u/setup.py'"'"'; __file__='"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-hq_5ya6u/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-record-2ogr2ydc/install-record.txt --single-version-externally-managed --compile --install-headers /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/include/site/python3.8/mlproject
+         cwd: /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-hq_5ya6u/
+    Complete output (32 lines):
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    creating build/lib/tests
+    copying tests/__init__.py -> build/lib/tests
+    copying tests/lib_test.py -> build/lib/tests
+    creating build/lib/mlproject
+    copying mlproject/lib.py -> build/lib/mlproject
+    copying mlproject/__init__.py -> build/lib/mlproject
+    copying mlproject/distance.py -> build/lib/mlproject
+    running egg_info
+    writing mlproject.egg-info/PKG-INFO
+    writing dependency_links to mlproject.egg-info/dependency_links.txt
+    writing top-level names to mlproject.egg-info/top_level.txt
+    reading manifest file 'mlproject.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no previously-included files matching '__pycache__' found anywhere in distribution
+    warning: no previously-included files matching '*.so' found anywhere in distribution
+    warning: no previously-included files matching '*.ipynb' found anywhere in distribution
+    warning: no previously-included files matching '*' found under directory 'mlproject/jupy'
+    writing manifest file 'mlproject.egg-info/SOURCES.txt'
+    creating build/lib/mlproject/data
+    copying mlproject/data/data.csv.gz -> build/lib/mlproject/data
+    running build_scripts
+    creating build/scripts-3.8
+    copying and adjusting scripts/mlproject-run -> build/scripts-3.8
+    warning: build_scripts: scripts/mlproject-computedist is an empty file (skipping)
+    
+    changing mode of build/scripts-3.8/mlproject-run from 644 to 755
+    error: [Errno 2] No such file or directory: 'build/scripts-3.8/mlproject-computedist'
+    ----------------------------------------[0m
+[?25h  Rolling back uninstall of mlproject
+  Moving to /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/bin/mlproject-run
+   from /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-uninstall-61wkfmg4/mlproject-run
+  Moving to /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/mlproject-1.0.dist-info/
+   from /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~lproject-1.0.dist-info
+  Moving to /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/mlproject/
+   from /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~lproject
+  Moving to /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/tests/
+   from /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~ests
+[31mERROR: Command errored out with exit status 1: /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-hq_5ya6u/setup.py'"'"'; __file__='"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-hq_5ya6u/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-record-2ogr2ydc/install-record.txt --single-version-externally-managed --compile --install-headers /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/include/site/python3.8/mlproject Check the logs for full command output.[0m
+make: *** [install] Error 1
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[4mm[24m[24m[1m[31mm[1m[31ma[0m[39m[1m[31mm[1m[31ma[1m[31mk[0m[39m[0m[32mm[0m[32ma[0m[32mk[32me[39m[1m[37m[45mm[1m[37m[45ma[1m[37m[45mk[1m[37m[45me[0m[39m[49m install[12D[0m[49m[32mm[0m[49m[32ma[0m[49m[32mk[0m[49m[32me[39m[8C[?1l>[?2004l
+]2;make install]1;makeProcessing /Users/catherinechen/code/catzlin/mlproject
+Building wheels for collected packages: mlproject
+  Building wheel for mlproject (setup.py) ... [?25l- \ error
+[31m  ERROR: Command errored out with exit status 1:
+   command: /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-wtnyg3vr/setup.py'"'"'; __file__='"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-wtnyg3vr/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-wheel-o2zophkk
+       cwd: /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-wtnyg3vr/
+  Complete output (34 lines):
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib
+  creating build/lib/tests
+  copying tests/__init__.py -> build/lib/tests
+  copying tests/lib_test.py -> build/lib/tests
+  creating build/lib/mlproject
+  copying mlproject/lib.py -> build/lib/mlproject
+  copying mlproject/__init__.py -> build/lib/mlproject
+  copying mlproject/distance.py -> build/lib/mlproject
+  running egg_info
+  creating mlproject.egg-info
+  writing mlproject.egg-info/PKG-INFO
+  writing dependency_links to mlproject.egg-info/dependency_links.txt
+  writing top-level names to mlproject.egg-info/top_level.txt
+  writing manifest file 'mlproject.egg-info/SOURCES.txt'
+  reading manifest file 'mlproject.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no previously-included files matching '__pycache__' found anywhere in distribution
+  warning: no previously-included files matching '*.so' found anywhere in distribution
+  warning: no previously-included files matching '*.ipynb' found anywhere in distribution
+  warning: no previously-included files matching '*' found under directory 'mlproject/jupy'
+  writing manifest file 'mlproject.egg-info/SOURCES.txt'
+  creating build/lib/mlproject/data
+  copying mlproject/data/data.csv.gz -> build/lib/mlproject/data
+  running build_scripts
+  creating build/scripts-3.8
+  copying and adjusting scripts/mlproject-run -> build/scripts-3.8
+  warning: build_scripts: scripts/mlproject-computedist is an empty file (skipping)
+  
+  changing mode of build/scripts-3.8/mlproject-run from 644 to 755
+  error: [Errno 2] No such file or directory: 'build/scripts-3.8/mlproject-computedist'
+  ----------------------------------------[0m
+[31m  ERROR: Failed building wheel for mlproject[0m
+[?25h  Running setup.py clean for mlproject
+Failed to build mlproject
+Installing collected packages: mlproject
+  Attempting uninstall: mlproject
+    Found existing installation: mlproject 1.0
+    Uninstalling mlproject-1.0:
+      Successfully uninstalled mlproject-1.0
+    Running setup.py install for mlproject ... [?25l- error
+[31m    ERROR: Command errored out with exit status 1:
+     command: /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-wtnyg3vr/setup.py'"'"'; __file__='"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-wtnyg3vr/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-record-9plbabaf/install-record.txt --single-version-externally-managed --compile --install-headers /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/include/site/python3.8/mlproject
+         cwd: /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-wtnyg3vr/
+    Complete output (32 lines):
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    creating build/lib/tests
+    copying tests/__init__.py -> build/lib/tests
+    copying tests/lib_test.py -> build/lib/tests
+    creating build/lib/mlproject
+    copying mlproject/lib.py -> build/lib/mlproject
+    copying mlproject/__init__.py -> build/lib/mlproject
+    copying mlproject/distance.py -> build/lib/mlproject
+    running egg_info
+    writing mlproject.egg-info/PKG-INFO
+    writing dependency_links to mlproject.egg-info/dependency_links.txt
+    writing top-level names to mlproject.egg-info/top_level.txt
+    reading manifest file 'mlproject.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no previously-included files matching '__pycache__' found anywhere in distribution
+    warning: no previously-included files matching '*.so' found anywhere in distribution
+    warning: no previously-included files matching '*.ipynb' found anywhere in distribution
+    warning: no previously-included files matching '*' found under directory 'mlproject/jupy'
+    writing manifest file 'mlproject.egg-info/SOURCES.txt'
+    creating build/lib/mlproject/data
+    copying mlproject/data/data.csv.gz -> build/lib/mlproject/data
+    running build_scripts
+    creating build/scripts-3.8
+    copying and adjusting scripts/mlproject-run -> build/scripts-3.8
+    warning: build_scripts: scripts/mlproject-computedist is an empty file (skipping)
+    
+    changing mode of build/scripts-3.8/mlproject-run from 644 to 755
+    error: [Errno 2] No such file or directory: 'build/scripts-3.8/mlproject-computedist'
+    ----------------------------------------[0m
+[?25h  Rolling back uninstall of mlproject
+  Moving to /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/bin/mlproject-run
+   from /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-uninstall-0l6s0o1q/mlproject-run
+  Moving to /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/mlproject-1.0.dist-info/
+   from /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~lproject-1.0.dist-info
+  Moving to /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/mlproject/
+   from /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~lproject
+  Moving to /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/tests/
+   from /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~ests
+[31mERROR: Command errored out with exit status 1: /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-wtnyg3vr/setup.py'"'"'; __file__='"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-wtnyg3vr/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-record-9plbabaf/install-record.txt --single-version-externally-managed --compile --install-headers /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/include/site/python3.8/mlproject Check the logs for full command output.[0m
+make: *** [install] Error 1
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mt[39m[32mt[32mr[39m[1m[31mt[1m[31mr[1m[31me[0m[39m[0m[32mt[0m[32mr[0m[32me[32me[39m[?1l>[?2004l
+]2;tree]1;tree.
+├── MANIFEST.in
+├── Makefile
+├── README.md
+├── mlproject
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-38.pyc
+│   │   ├── distance.cpython-38.pyc
+│   │   └── lib.cpython-38.pyc
+│   ├── data
+│   │   └── data.csv.gz
+│   ├── distance.py
+│   └── lib.py
+├── out.csv
+├── requirements.txt
+├── scripts
+│   ├── mlproject-computedist
+│   └── mlproject-run
+├── setup.py
+├── tests
+│   ├── __init__.py
+│   └── lib_test.py
+└── typescript
+
+5 directories, 18 files
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[32ml[39m[39m [39m [32m.[39m[4m[32m.[4m[32m.[24m[39m[?1l>[?2004l
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;~/code/catzlin]7;file://MBP-16709/Users/catherinechen/code/catzlin[0m[27m[24m[J[01;32m➜  [36mcatzlin[00m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
+]2;ls -G]1;ls[1m[36mdata-challenges[39;49m[0m [1m[36mdotfiles[39;49m[0m        [1m[36mmlproject[39;49m[0m       [1m[36mpysqlite3[39;49m[0m       [1m[36msqlite[39;49m[0m          sqlite.tar.gz
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;~/code/catzlin]7;file://MBP-16709/Users/catherinechen/code/catzlin[0m[27m[24m[J[01;32m➜  [36mcatzlin[00m [K[?1h=[?2004h[4mm[24m[4mm[4ml[24m[4m[32mm[4m[32ml[4m[32mproject[24m[39m[?1l>[?2004l
+]2;mlproject]1;mlproject[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[4mm[24m[24m[1m[31mm[1m[31ma[0m[39m[1m[31mm[1m[31ma[1m[31mk[0m[39m[0m[32mm[0m[32ma[0m[32mk[32me[39m in[1m[37m[45mm[1m[37m[45ma[1m[37m[45mk[1m[37m[45me[39m[1m[37m[45m [1m[37m[45mi[1m[37m[45mn[0m[39m[49mstall[12D[0m[49m[32mm[0m[49m[32ma[0m[49m[32mk[0m[49m[32me[39m[0m[39m[49m [0m[39m[49mi[0m[39m[49mn[5C[?1l>[?2004l
+]2;make install]1;makeProcessing /Users/catherinechen/code/catzlin/mlproject
+Building wheels for collected packages: mlproject
+  Building wheel for mlproject (setup.py) ... [?25l- \ error
+[31m  ERROR: Command errored out with exit status 1:
+   command: /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-bh69n4ph/setup.py'"'"'; __file__='"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-bh69n4ph/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-wheel-sn9_0h_j
+       cwd: /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-bh69n4ph/
+  Complete output (34 lines):
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib
+  creating build/lib/tests
+  copying tests/__init__.py -> build/lib/tests
+  copying tests/lib_test.py -> build/lib/tests
+  creating build/lib/mlproject
+  copying mlproject/lib.py -> build/lib/mlproject
+  copying mlproject/__init__.py -> build/lib/mlproject
+  copying mlproject/distance.py -> build/lib/mlproject
+  running egg_info
+  creating mlproject.egg-info
+  writing mlproject.egg-info/PKG-INFO
+  writing dependency_links to mlproject.egg-info/dependency_links.txt
+  writing top-level names to mlproject.egg-info/top_level.txt
+  writing manifest file 'mlproject.egg-info/SOURCES.txt'
+  reading manifest file 'mlproject.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no previously-included files matching '__pycache__' found anywhere in distribution
+  warning: no previously-included files matching '*.so' found anywhere in distribution
+  warning: no previously-included files matching '*.ipynb' found anywhere in distribution
+  warning: no previously-included files matching '*' found under directory 'mlproject/jupy'
+  writing manifest file 'mlproject.egg-info/SOURCES.txt'
+  creating build/lib/mlproject/data
+  copying mlproject/data/data.csv.gz -> build/lib/mlproject/data
+  running build_scripts
+  creating build/scripts-3.8
+  copying and adjusting scripts/mlproject-run -> build/scripts-3.8
+  warning: build_scripts: scripts/mlproject-computedist is an empty file (skipping)
+  
+  changing mode of build/scripts-3.8/mlproject-run from 644 to 755
+  error: [Errno 2] No such file or directory: 'build/scripts-3.8/mlproject-computedist'
+  ----------------------------------------[0m
+[31m  ERROR: Failed building wheel for mlproject[0m
+[?25h  Running setup.py clean for mlproject
+Failed to build mlproject
+Installing collected packages: mlproject
+  Attempting uninstall: mlproject
+    Found existing installation: mlproject 1.0
+    Uninstalling mlproject-1.0:
+      Successfully uninstalled mlproject-1.0
+    Running setup.py install for mlproject ... [?25l- error
+[31m    ERROR: Command errored out with exit status 1:
+     command: /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-bh69n4ph/setup.py'"'"'; __file__='"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-bh69n4ph/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-record-9f537v8q/install-record.txt --single-version-externally-managed --compile --install-headers /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/include/site/python3.8/mlproject
+         cwd: /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-bh69n4ph/
+    Complete output (32 lines):
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    creating build/lib/tests
+    copying tests/__init__.py -> build/lib/tests
+    copying tests/lib_test.py -> build/lib/tests
+    creating build/lib/mlproject
+    copying mlproject/lib.py -> build/lib/mlproject
+    copying mlproject/__init__.py -> build/lib/mlproject
+    copying mlproject/distance.py -> build/lib/mlproject
+    running egg_info
+    writing mlproject.egg-info/PKG-INFO
+    writing dependency_links to mlproject.egg-info/dependency_links.txt
+    writing top-level names to mlproject.egg-info/top_level.txt
+    reading manifest file 'mlproject.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no previously-included files matching '__pycache__' found anywhere in distribution
+    warning: no previously-included files matching '*.so' found anywhere in distribution
+    warning: no previously-included files matching '*.ipynb' found anywhere in distribution
+    warning: no previously-included files matching '*' found under directory 'mlproject/jupy'
+    writing manifest file 'mlproject.egg-info/SOURCES.txt'
+    creating build/lib/mlproject/data
+    copying mlproject/data/data.csv.gz -> build/lib/mlproject/data
+    running build_scripts
+    creating build/scripts-3.8
+    copying and adjusting scripts/mlproject-run -> build/scripts-3.8
+    warning: build_scripts: scripts/mlproject-computedist is an empty file (skipping)
+    
+    changing mode of build/scripts-3.8/mlproject-run from 644 to 755
+    error: [Errno 2] No such file or directory: 'build/scripts-3.8/mlproject-computedist'
+    ----------------------------------------[0m
+[?25h  Rolling back uninstall of mlproject
+  Moving to /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/bin/mlproject-run
+   from /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-uninstall-l9jborbv/mlproject-run
+  Moving to /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/mlproject-1.0.dist-info/
+   from /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~lproject-1.0.dist-info
+  Moving to /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/mlproject/
+   from /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~lproject
+  Moving to /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/tests/
+   from /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~ests
+[31mERROR: Command errored out with exit status 1: /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-bh69n4ph/setup.py'"'"'; __file__='"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-bh69n4ph/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-record-9f537v8q/install-record.txt --single-version-externally-managed --compile --install-headers /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/include/site/python3.8/mlproject Check the logs for full command output.[0m
+make: *** [install] Error 1
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
+]2;ls -G]1;lsMANIFEST.in      README.md        out.csv          [1m[36mscripts[39;49m[0m          [1m[36mtests[39;49m[0m
+Makefile         [1m[36mmlproject[39;49m[0m        requirements.txt setup.py         typescript
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[4ms[24m[4ms[4mc[24m[4ms[4mc[4mr[24m[24m[1m[37m[45ms[24m[1m[37m[45mc[24m[1m[37m[45mr[0m[39m[49m[4m[32mipts[24m[39m[0m[49m[4m[32ms[0m[49m[4m[32mc[0m[49m[4m[32mr[4C[?1l>[?2004l[24m[39m
+]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..oject/scripts]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
+]2;ls -G]1;lsmlproject-computedist mlproject-run
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..oject/scripts]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31mm[0m[39m[1m[31mm[1m[31ma[0m[39m[1m[31mm[1m[31ma[1m[31ml[0m[39m[1m[31mm[1m[31ma[0m[39m[0m[39m [1m[31mm[1m[31ma[1m[31ml[0m[39m[1m[31mm[1m[31ma[0m[39m[0m[39m [1m[31mm[1m[31ma[1m[31mk[0m[39m[1m[37m[45mm[1m[37m[45ma[1m[37m[45mk[0m[39m[49m[32me[39m install[12D[0m[49m[32mm[0m[49m[32ma[0m[49m[32mk[9C[?1l>[?2004l[39m
+]2;make install]1;makemake: *** No rule to make target `install'.  Stop.
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..oject/scripts]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject/scripts[0m[27m[24m[J[01;31m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[[200~mlproject-computedist --help[33D[1m[31m[[1m[31m2[1m[31m0[1m[31m0[1m[31m~[1m[31mm[1m[31ml[1m[31mp[1m[31mr[1m[31mo[1m[31mj[1m[31me[1m[31mc[1m[31mt[1m[31m-[1m[31mc[1m[31mo[1m[31mm[1m[31mp[1m[31mu[1m[31mt[1m[31me[1m[31md[1m[31mi[1m[31ms[1m[31mt[0m[39m[7C~       [1m[31ms[0m[39m[0m[39m [1m[31mi[0m[39m[0m[39m [1m[31md[0m[39m[0m[39m [1m[31me[0m[39m[0m[39m [1m[31mt[0m[39m[0m[39m [1m[31mu[0m[39m[0m[39m [1m[31mp[0m[39m[0m[39m [1m[31mm[0m[39m[0m[39m [1m[31mo[0m[39m[0m[39m [1m[31mc[0m[39m[0m[39m [1m[31m-[0m[39m[0m[39m [1m[31mt[0m[39m[0m[39m [1m[31mc[0m[39m[0m[39m [1m[31me[0m[39m[0m[39m [1m[31mj[0m[39m[0m[39m [1m[31mo[0m[39m[0m[39m [1m[31mr[0m[39m[0m[39m [1m[31mp[0m[39m[0m[39m [1m[31ml[0m[39m[0m[39m [1m[31mm[0m[39m[0m[39m [1m[31m~[0m[39m[0m[39m [1m[31m0[0m[39m[0m[39m [1m[31m0[0m[39m[0m[39m [1m[31m[[1m[31m2[0m[39m[0m[39m [0m[32m[[39m[0m[39m [39m [7mmlproject-computedist --help[27m[28D[27m[1m[31mm[27m[1m[31ml[27m[1m[31mp[27m[1m[31mr[27m[1m[31mo[27m[1m[31mj[27m[1m[31me[27m[1m[31mc[27m[1m[31mt[27m[1m[31m-[27m[1m[31mc[27m[1m[31mo[27m[1m[31mm[27m[1m[31mp[27m[1m[31mu[27m[1m[31mt[27m[1m[31me[27m[1m[31md[27m[1m[31mi[27m[1m[31ms[27m[1m[31mt[0m[39m[27m [27m-[27m-[27mh[27me[27ml[27mp[?1l>[?2004l
+]2;mlproject-computedist --help]1;mlproject-computedistzsh: command not found: mlproject-computedist
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..oject/scripts]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject/scripts[0m[27m[24m[J[01;31m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32m.[39m[4m[32m.[4m[32m.[24m[39m[?1l>[?2004l
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32m.[39m[4m[32m.[4m[32m.[24m[39m[?1l>[?2004l
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;~/code/catzlin]7;file://MBP-16709/Users/catherinechen/code/catzlin[0m[27m[24m[J[01;32m➜  [36mcatzlin[00m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
+]2;ls -G]1;ls[1m[36mdata-challenges[39;49m[0m [1m[36mdotfiles[39;49m[0m        [1m[36mmlproject[39;49m[0m       [1m[36mpysqlite3[39;49m[0m       [1m[36msqlite[39;49m[0m          sqlite.tar.gz
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;~/code/catzlin]7;file://MBP-16709/Users/catherinechen/code/catzlin[0m[27m[24m[J[01;32m➜  [36mcatzlin[00m [K[?1h=[?2004h[4mm[24m[4mm[4ml[24m[4m[32mm[4m[32ml[4m[32mproject[24m[39m[?1l>[?2004l
+]2;mlproject]1;mlproject[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mp[39m[1m[31mp[1m[31mi[0m[39m[0m[32mp[0m[32mi[32mp[39m de  install de r e  co  [4mt[24m[4mt[4me[24m[24mt[24mermcolor[?1l>[?2004l
+]2;pip install termcolor]1;pipRequirement already satisfied: termcolor in /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages (1.1.0)
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[4mm[24m[24m[1m[31mm[1m[31ma[0m[39m[1m[31mm[1m[31ma[1m[31mk[0m[39m[0m[32mm[0m[32ma[0m[32mk[32me[39m install[?1l>[?2004l
+]2;make install]1;makeProcessing /Users/catherinechen/code/catzlin/mlproject
+Building wheels for collected packages: mlproject
+  Building wheel for mlproject (setup.py) ... [?25l- \ error
+[31m  ERROR: Command errored out with exit status 1:
+   command: /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-_ox60kta/setup.py'"'"'; __file__='"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-_ox60kta/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-wheel-pkzddr47
+       cwd: /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-_ox60kta/
+  Complete output (34 lines):
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib
+  creating build/lib/tests
+  copying tests/__init__.py -> build/lib/tests
+  copying tests/lib_test.py -> build/lib/tests
+  creating build/lib/mlproject
+  copying mlproject/lib.py -> build/lib/mlproject
+  copying mlproject/__init__.py -> build/lib/mlproject
+  copying mlproject/distance.py -> build/lib/mlproject
+  running egg_info
+  creating mlproject.egg-info
+  writing mlproject.egg-info/PKG-INFO
+  writing dependency_links to mlproject.egg-info/dependency_links.txt
+  writing top-level names to mlproject.egg-info/top_level.txt
+  writing manifest file 'mlproject.egg-info/SOURCES.txt'
+  reading manifest file 'mlproject.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no previously-included files matching '__pycache__' found anywhere in distribution
+  warning: no previously-included files matching '*.so' found anywhere in distribution
+  warning: no previously-included files matching '*.ipynb' found anywhere in distribution
+  warning: no previously-included files matching '*' found under directory 'mlproject/jupy'
+  writing manifest file 'mlproject.egg-info/SOURCES.txt'
+  creating build/lib/mlproject/data
+  copying mlproject/data/data.csv.gz -> build/lib/mlproject/data
+  running build_scripts
+  creating build/scripts-3.8
+  copying and adjusting scripts/mlproject-run -> build/scripts-3.8
+  warning: build_scripts: scripts/mlproject-computedist is an empty file (skipping)
+  
+  changing mode of build/scripts-3.8/mlproject-run from 644 to 755
+  error: [Errno 2] No such file or directory: 'build/scripts-3.8/mlproject-computedist'
+  ----------------------------------------[0m
+[31m  ERROR: Failed building wheel for mlproject[0m
+[?25h  Running setup.py clean for mlproject
+Failed to build mlproject
+Installing collected packages: mlproject
+  Attempting uninstall: mlproject
+    Found existing installation: mlproject 1.0
+    Uninstalling mlproject-1.0:
+      Successfully uninstalled mlproject-1.0
+    Running setup.py install for mlproject ... [?25l- error
+[31m    ERROR: Command errored out with exit status 1:
+     command: /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-_ox60kta/setup.py'"'"'; __file__='"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-_ox60kta/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-record-nyzjnovy/install-record.txt --single-version-externally-managed --compile --install-headers /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/include/site/python3.8/mlproject
+         cwd: /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-_ox60kta/
+    Complete output (32 lines):
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    creating build/lib/tests
+    copying tests/__init__.py -> build/lib/tests
+    copying tests/lib_test.py -> build/lib/tests
+    creating build/lib/mlproject
+    copying mlproject/lib.py -> build/lib/mlproject
+    copying mlproject/__init__.py -> build/lib/mlproject
+    copying mlproject/distance.py -> build/lib/mlproject
+    running egg_info
+    writing mlproject.egg-info/PKG-INFO
+    writing dependency_links to mlproject.egg-info/dependency_links.txt
+    writing top-level names to mlproject.egg-info/top_level.txt
+    reading manifest file 'mlproject.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no previously-included files matching '__pycache__' found anywhere in distribution
+    warning: no previously-included files matching '*.so' found anywhere in distribution
+    warning: no previously-included files matching '*.ipynb' found anywhere in distribution
+    warning: no previously-included files matching '*' found under directory 'mlproject/jupy'
+    writing manifest file 'mlproject.egg-info/SOURCES.txt'
+    creating build/lib/mlproject/data
+    copying mlproject/data/data.csv.gz -> build/lib/mlproject/data
+    running build_scripts
+    creating build/scripts-3.8
+    copying and adjusting scripts/mlproject-run -> build/scripts-3.8
+    warning: build_scripts: scripts/mlproject-computedist is an empty file (skipping)
+    
+    changing mode of build/scripts-3.8/mlproject-run from 644 to 755
+    error: [Errno 2] No such file or directory: 'build/scripts-3.8/mlproject-computedist'
+    ----------------------------------------[0m
+[?25h  Rolling back uninstall of mlproject
+  Moving to /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/bin/mlproject-run
+   from /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-uninstall-1ntvp5zc/mlproject-run
+  Moving to /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/mlproject-1.0.dist-info/
+   from /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~lproject-1.0.dist-info
+  Moving to /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/mlproject/
+   from /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~lproject
+  Moving to /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/tests/
+   from /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~ests
+[31mERROR: Command errored out with exit status 1: /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-_ox60kta/setup.py'"'"'; __file__='"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-_ox60kta/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-record-nyzjnovy/install-record.txt --single-version-externally-managed --compile --install-headers /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/include/site/python3.8/mlproject Check the logs for full command output.[0m
+make: *** [install] Error 1
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h
