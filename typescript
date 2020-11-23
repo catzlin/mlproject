@@ -592,4 +592,293 @@ Installing collected packages: mlproject
    from /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~ests
 [31mERROR: Command errored out with exit status 1: /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-_ox60kta/setup.py'"'"'; __file__='"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-_ox60kta/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-record-nyzjnovy/install-record.txt --single-version-externally-managed --compile --install-headers /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/include/site/python3.8/mlproject Check the logs for full command output.[0m
 make: *** [install] Error 1
-[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mg[39m[1m[31mg[1m[31mi[0m[39m[0m[32mg[0m[32mi[32mt[39m add  [4m.[24m [?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mg[39m[1m[31mg[1m[31mi[0m[39m[0m[32mg[0m[32mi[32mt[39m de  commit -m [33m"[39m[33m"[33mm[39m[33mm[33ma[39m[33ma[33mj[39m[33mj[33m"[39m[?1l>[?2004l
+]2;git commit -m "maj"]1;git[master a549d2e] maj
+ 5 files changed, 1607 insertions(+), 1 deletion(-)
+ create mode 100644 mlproject/distance.py
+ create mode 100644 out.csv
+ create mode 100644 scripts/mlproject-computedist
+ create mode 100644 typescript
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mg[39m[1m[31mg[1m[31mi[0m[39m[0m[32mg[0m[32mi[32mt[39m de  [4mr[24m[4mr[4me[24m[4mr[24m[24m [24m [4mo[24m[24morg [4mo[24m [24m [1m[31mg[1m[31mi[1m[31mt[1m[31mp[0m[39m[1m[31mp[1m[31mu[0m[39m[1m[31mp[0m[39m[0m[39m  [0m[32mg[0m[32mi[0m[32mt[39m[0m[39m  push irg   [4mo[24m[24mori[12D[1m[37m[45mg[1m[37m[45mi[1m[37m[45mt[39m[1m[37m[45m [1m[37m[45mp[1m[37m[45mu[1m[37m[45ms[1m[37m[45mh[1m[37m[45m [1m[37m[45mo[1m[37m[45mr[1m[37m[45mi[0m[39m[49mgin master[22D[0m[49m[32mg[0m[49m[32mi[0m[49m[32mt[39m[0m[39m[49m [0m[39m[49mp[0m[39m[49mu[0m[39m[49ms[0m[39m[49mh[0m[39m[49m [0m[39m[49mo[0m[39m[49mr[0m[39m[49mi[10C[?1l>[?2004l
+]2;git push origin master]1;gitfatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mg[39m[1m[31mg[1m[31mi[0m[39m[0m[32mg[0m[32mi[32mt[39m [4ms[24m[24mstatus[?1l>[?2004l
+]2;git status]1;gitOn branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mg[39m[32mg[32md[39m[?1l>[?2004l
+]2;git diff]1;gd[?1h=[1mdiff --git a/typescript b/typescript[m[m
+[1mindex 7b41608..440f717 100644[m[m
+[1m--- a/typescript[m[m
+[1m+++ b/typescript[m[m
+[36m@@ -592,4 +592,18 @@[m [mInstalling collected packages: mlproject[m[m
+    from /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~ests[m[m
+ [31mERROR: Command errored out with exit status 1: /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, set[m
+ make: *** [install] Error 1[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                                                       [m
+[32m+[m[32m2;git add .[7m^G[27m1;git[7m^G[27m[1m[7m%[27m[1m[0m                                                                                                                   [m
+[32m+[m[32m2;git commit -m "maj"[7m^G[27m1;git[7m^G[27m[master a549d2e] maj[m[41m[7m^M[27m[m[m
+[32m+[m[32m 5 files changed, 1607 insertions(+), 1 deletion(-)[m[41m[7m^M[27m[m[m
+[32m+[m[32m create mode 100644 mlproject/distance.py[m[41m[7m^M[27m[m[m
+[32m+[m[32m create mode 100644 out.csv[m[41m[7m^M[27m[m[m
+[32m+[m[32m create mode 100644 scripts/mlproject-computedist[m[41m[7m^M[27m[m[m
+[32m+[m[32m create mode 100644 typescript[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                                                                       [m
+[32m+[m[32m2;git push origin master[7m^G[27m1;git[7m^G[27mfatal: 'origin' does not appear to be a git repository[m[41m[7m^M[27m[m[m
+[32m+[m[32mfatal: Could not read from remote repository.[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mPlease make sure you have the correct access rights[m[41m[7m^M[27m[m[m
+[32m+[m[32mand the repository exists.[m[41m[7m^M[27m[m[m
+ [1m[7m%[27m[1m[0m                                                                                                                                       [m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject
+[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mg[39m[1m[31mg[1m[31mi[0m[39m[0m[32mg[0m[32mi[32mt[39m lg[?1l>[?2004l
+]2;git lg]1;git[?1h=* [31ma549d2e[m - maj [32m(7 minutes ago) [1;34mCatherine Chen[m [33m (HEAD -> master)[m[m
+* [31mdf31e28[m - 'initialcommit' [32m(2 hours ago) [1;34mCatherine Chen[m [33m (tag: 0.4)[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mg[39m[32mg[32mr[39m[32mg[32mr[32mv[39m[?1l>[?2004l
+]2;git remote -v]1;grv[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31mb[0m[39m[1m[31mb[1m[31mr[0m[39m[1m[31mb[1m[31mr[1m[31me[0m[39m[1m[31me[1m[31mq[0m[39m[1m[31me[0m[39m[0m[39m [0m[32mb[0m[32mr[0m[32me[32mw[39m install gh         [1m[31mb[1m[31mr[1m[31me[0m[39m[39m [1m[31mb[1m[31mr[0m[39m[0m[39m [1m[31mb[0m[39m[0m[39m [0m[39m [32mg[39m[32mg[32mh[39m [4mr[24m[4mr[4me[24m[24mr[24mepo cretate    ate[?1l>[?2004l
+]2;gh repo create]1;gh[0;1;39mWelcome to GitHub CLI![0m
+
+To authenticate, please run `gh auth login`.
+You can also set the GITHUB_TOKEN environment variable, if preferred.
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mg[39m[32mg[32mh[39m [4mo[24m[24mos login[?1l>[?2004l
+]2;gh os login]1;ghunknown command "os" for "gh"
+
+Did you mean this?
+	pr
+
+Usage:  gh <command> <subcommand> [flags]
+
+Available commands:
+  alias
+  api
+  auth
+  completion
+  config
+  gist
+  help
+  issue
+  pr
+  release
+  repo
+
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mg[39m[32mg[32mh[39m auth login[?1l>[?2004l
+]2;gh auth login]1;gh[0G[2K[0;1;92m? [0m[0;1;99mWhat account do you want to log into?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> GitHub.com[0m
+[0;39m  GitHub Enterprise Server[0m
+[?25l[?25h[0G[2K[1F[2K[1F[2K[1F[2K[0;1;92m? [0m[0;1;99mWhat account do you want to log into?[0m[0;36m GitHub.com[0m
+- Logging into github.com
+[0G[2K[0;1;92m? [0m[0;1;99mHow would you like to authenticate?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> Login with a web browser[0m
+[0;39m  Paste an authentication token[0m
+[?25l[0G[2K[1F[2K[1F[2K[1F[2K[0;1;92m? [0m[0;1;99mHow would you like to authenticate? c[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> Paste an authentication token[0m
+[0G[2K[1F[2K[1F[2K[0;1;92m? [0m[0;1;99mHow would you like to authenticate? ca[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> Paste an authentication token[0m
+[0G[2K[1F[2K[1F[2K[0;1;92m? [0m[0;1;99mHow would you like to authenticate? cat[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> Paste an authentication token[0m
+[0G[2K[1F[2K[1F[2K[0;1;92m? [0m[0;1;99mHow would you like to authenticate? ca[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> Paste an authentication token[0m
+[0G[2K[1F[2K[1F[2K[0;1;92m? [0m[0;1;99mHow would you like to authenticate? c[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> Paste an authentication token[0m
+[0G[2K[1F[2K[1F[2K[0;1;92m? [0m[0;1;99mHow would you like to authenticate?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> Login with a web browser[0m
+[0;39m  Paste an authentication token[0m
+[0G[2K[1F[2K[1F[2K[1F[2K[0;1;92m? [0m[0;1;99mHow would you like to authenticate?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;39m  Login with a web browser[0m
+[0;1;36m> Paste an authentication token[0m
+[0G[2K[1F[2K[1F[2K[1F[2K[0;1;92m? [0m[0;1;99mHow would you like to authenticate?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> Login with a web browser[0m
+[0;39m  Paste an authentication token[0m
+[?25h[0G[2K[1F[2K[1F[2K[1F[2K[0;1;92m? [0m[0;1;99mHow would you like to authenticate?[0m[0;36m Login with a web browser[0m
+
+[0;33m![0m First copy your one-time code: [0;1;39m2CB4-4C32[0m
+- [0;1;39mPress Enter[0m to open github.com in your browser... 
+
+
+
+
+
+
+
+
+^C
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mgh[39m auth login[?1l>[?2004l
+]2;gh auth login]1;gh[0G[2K[0;1;92m? [0m[0;1;99mWhat account do you want to log into?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> GitHub.com[0m
+[0;39m  GitHub Enterprise Server[0m
+[?25l[?25h[0G[2K[1F[2K[1F[2K[1F[2K[0;1;92m? [0m[0;1;99mWhat account do you want to log into?[0m[0;36m GitHub.com[0m
+- Logging into github.com
+[0G[2K[0;1;92m? [0m[0;1;99mHow would you like to authenticate?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> Login with a web browser[0m
+[0;39m  Paste an authentication token[0m
+[?25l[?25h[0G[2K[1F[2K[1F[2K[1F[2K[0;1;92m? [0m[0;1;99mHow would you like to authenticate?[0m[0;36m Login with a web browser[0m
+
+[0;33m![0m First copy your one-time code: [0;1;39mA946-9DA7[0m
+- [0;1;39mPress Enter[0m to open github.com in your browser... 
+^C
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mg[39m[1m[31mg[1m[31mi[0m[39m[0m[32mg[0m[32mi[32mt[39m [4mr[24m[4mr[4me[24m[24mr[24memote   [4mr[4me[24m [4mr[24m[24m [24m [1m[31mg[1m[31mi[0m[39m[39m [0m[32mg[39m[0m[39m [39m [32mg[39m[32mg[32mr[39m[32mg[32mr[32mv[39m[?1l>[?2004l
+]2;git remote -v]1;grv[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mg[39m[1m[31mg[1m[31mi[0m[39m[0m[32mg[0m[32mi[32mt[39m [4mr[24m[4mr[4me[24m[24mr[24memote add [4mo[24m[24morigin [22D[39mg[39mi[39mt[19C[7mhttps://github.com/catzlin/mlproject.git[27m[62D[32mg[32mi[32mt[39m[19C[27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m/[27mc[27ma[27mt[27mz[27ml[27mi[27mn[27m/[27mm[27ml[27mp[27mr[27mo[27mj[27me[27mc[27mt[27m.[27mg[27mi[27mt[?1l>[?2004l
+]2;git remote add origin https://github.com/catzlin/mlproject.git]1;git[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mg[39m[32mg[32mr[39m[32mg[32mr[32mb[39m[32mg[32mr[39m[39m [32mg[32mr[32mv[39m[?1l>[?2004l
+]2;git remote -v]1;grvorigin	https://github.com/catzlin/mlproject.git (fetch)
+origin	https://github.com/catzlin/mlproject.git (push)
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mg[39m[1m[31mg[1m[31mi[0m[39m[0m[32mg[0m[32mi[32mt[39m push[8D[1m[37m[45mg[1m[37m[45mi[1m[37m[45mt[39m[1m[37m[45m [1m[37m[45mp[1m[37m[45mu[1m[37m[45ms[1m[37m[45mh[0m[39m[49m origin master[22D[0m[49m[32mg[0m[49m[32mi[0m[49m[32mt[39m[0m[39m[49m [0m[39m[49mp[0m[39m[49mu[0m[39m[49ms[0m[39m[49mh[14C[?1l>[?2004l
+]2;git push origin master]1;gitUsername for 'https://github.com': catzlin
+Password for 'https://catzlin@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/catzlin/mlproject.git/'
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mgit[39m push origin master[?1l>[?2004l
+]2;git push origin master]1;gitUsername for 'https://github.com': catzlin
+Password for 'https://catzlin@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/catzlin/mlproject.git/'
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mgit[39m push origin master[?1l>[?2004l
+]2;git push origin master]1;gitUsername for 'https://github.com': catzlin
+Password for 'https://catzlin@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/catzlin/mlproject.git/'
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mg[39m[1m[31mg[1m[31mi[0m[39m[0m[32mg[0m[32mi[32mt[39m[1m[31mg[1m[31mi[0m[39m[39m [0m[32mg[39m[0m[39m [39m [32mg[39m[1m[31mg[1m[31mi[0m[39m[0m[32mg[0m[32mi[32mt[39m [4ms[24m[24mstatus[?1l>[?2004l
+]2;git status]1;gitOn branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mt[39m[32mt[32mr[39m[1m[31mt[1m[31mr[1m[31me[0m[39m[0m[32mt[0m[32mr[0m[32me[32me[39m[?1l>[?2004l
+]2;tree]1;tree.
+├── MANIFEST.in
+├── Makefile
+├── README.md
+├── mlproject
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-38.pyc
+│   │   ├── distance.cpython-38.pyc
+│   │   └── lib.cpython-38.pyc
+│   ├── data
+│   │   └── data.csv.gz
+│   ├── distance.py
+│   └── lib.py
+├── out.csv
+├── requirements.txt
+├── scripts
+│   ├── mlproject-computedist
+│   └── mlproject-run
+├── setup.py
+├── tests
+│   ├── __init__.py
+│   └── lib_test.py
+└── typescript
+
+5 directories, 18 files
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[4mm[24m[24m[1m[31mm[1m[31ma[0m[39m[1m[31mm[1m[31ma[1m[31mk[0m[39m[0m[32mm[0m[32ma[0m[32mk[32me[39m i[1m[37m[45mm[1m[37m[45ma[1m[37m[45mk[1m[37m[45me[39m[1m[37m[45m [1m[37m[45mi[0m[39m[49mnstall[12D[0m[49m[32mm[0m[49m[32ma[0m[49m[32mk[0m[49m[32me[39m[0m[39m[49m [0m[39m[49mi[6C[?1l>[?2004l
+]2;make install]1;makeProcessing /Users/catherinechen/code/catzlin/mlproject
+Building wheels for collected packages: mlproject
+  Building wheel for mlproject (setup.py) ... [?25l- \ error
+[31m  ERROR: Command errored out with exit status 1:
+   command: /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-bvfcwad7/setup.py'"'"'; __file__='"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-bvfcwad7/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-wheel-cnhywtd0
+       cwd: /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-bvfcwad7/
+  Complete output (34 lines):
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib
+  creating build/lib/tests
+  copying tests/__init__.py -> build/lib/tests
+  copying tests/lib_test.py -> build/lib/tests
+  creating build/lib/mlproject
+  copying mlproject/lib.py -> build/lib/mlproject
+  copying mlproject/__init__.py -> build/lib/mlproject
+  copying mlproject/distance.py -> build/lib/mlproject
+  running egg_info
+  creating mlproject.egg-info
+  writing mlproject.egg-info/PKG-INFO
+  writing dependency_links to mlproject.egg-info/dependency_links.txt
+  writing top-level names to mlproject.egg-info/top_level.txt
+  writing manifest file 'mlproject.egg-info/SOURCES.txt'
+  reading manifest file 'mlproject.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no previously-included files matching '__pycache__' found anywhere in distribution
+  warning: no previously-included files matching '*.so' found anywhere in distribution
+  warning: no previously-included files matching '*.ipynb' found anywhere in distribution
+  warning: no previously-included files matching '*' found under directory 'mlproject/jupy'
+  writing manifest file 'mlproject.egg-info/SOURCES.txt'
+  creating build/lib/mlproject/data
+  copying mlproject/data/data.csv.gz -> build/lib/mlproject/data
+  running build_scripts
+  creating build/scripts-3.8
+  copying and adjusting scripts/mlproject-run -> build/scripts-3.8
+  warning: build_scripts: scripts/mlproject-computedist is an empty file (skipping)
+  
+  changing mode of build/scripts-3.8/mlproject-run from 644 to 755
+  error: [Errno 2] No such file or directory: 'build/scripts-3.8/mlproject-computedist'
+  ----------------------------------------[0m
+[31m  ERROR: Failed building wheel for mlproject[0m
+[?25h  Running setup.py clean for mlproject
+Failed to build mlproject
+Installing collected packages: mlproject
+  Attempting uninstall: mlproject
+    Found existing installation: mlproject 1.0
+    Uninstalling mlproject-1.0:
+      Successfully uninstalled mlproject-1.0
+    Running setup.py install for mlproject ... [?25l- error
+[31m    ERROR: Command errored out with exit status 1:
+     command: /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-bvfcwad7/setup.py'"'"'; __file__='"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-bvfcwad7/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-record-x3i1i65k/install-record.txt --single-version-externally-managed --compile --install-headers /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/include/site/python3.8/mlproject
+         cwd: /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-bvfcwad7/
+    Complete output (32 lines):
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    creating build/lib/tests
+    copying tests/__init__.py -> build/lib/tests
+    copying tests/lib_test.py -> build/lib/tests
+    creating build/lib/mlproject
+    copying mlproject/lib.py -> build/lib/mlproject
+    copying mlproject/__init__.py -> build/lib/mlproject
+    copying mlproject/distance.py -> build/lib/mlproject
+    running egg_info
+    writing mlproject.egg-info/PKG-INFO
+    writing dependency_links to mlproject.egg-info/dependency_links.txt
+    writing top-level names to mlproject.egg-info/top_level.txt
+    reading manifest file 'mlproject.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no previously-included files matching '__pycache__' found anywhere in distribution
+    warning: no previously-included files matching '*.so' found anywhere in distribution
+    warning: no previously-included files matching '*.ipynb' found anywhere in distribution
+    warning: no previously-included files matching '*' found under directory 'mlproject/jupy'
+    writing manifest file 'mlproject.egg-info/SOURCES.txt'
+    creating build/lib/mlproject/data
+    copying mlproject/data/data.csv.gz -> build/lib/mlproject/data
+    running build_scripts
+    creating build/scripts-3.8
+    copying and adjusting scripts/mlproject-run -> build/scripts-3.8
+    warning: build_scripts: scripts/mlproject-computedist is an empty file (skipping)
+    
+    changing mode of build/scripts-3.8/mlproject-run from 644 to 755
+    error: [Errno 2] No such file or directory: 'build/scripts-3.8/mlproject-computedist'
+    ----------------------------------------[0m
+[?25h  Rolling back uninstall of mlproject
+  Moving to /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/bin/mlproject-run
+   from /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-uninstall-vxhhntzw/mlproject-run
+  Moving to /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/mlproject-1.0.dist-info/
+   from /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~lproject-1.0.dist-info
+  Moving to /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/mlproject/
+   from /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~lproject
+  Moving to /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/tests/
+   from /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~ests
+[31mERROR: Command errored out with exit status 1: /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-bvfcwad7/setup.py'"'"'; __file__='"'"'/private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-req-build-bvfcwad7/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/var/folders/by/c6mgrfq13779sxvj28r7q62m0000gn/T/pip-record-x3i1i65k/install-record.txt --single-version-externally-managed --compile --install-headers /Users/catherinechen/.pyenv/versions/3.8.6/envs/data/include/site/python3.8/mlproject Check the logs for full command output.[0m
+make: *** [install] Error 1
+[1m[7m%[27m[1m[0m                                                                                                                                         ]2;catherinechen@MBP-16709]1;..lin/mlproject]7;file://MBP-16709/Users/catherinechen/code/catzlin/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31mi[0m[39m[1m[31mi[1m[31mt[0m[39m[1m[31mi[0m[39m[0m[39m [0m[39m [32mg[39m
